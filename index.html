@@ -564,7 +564,6 @@
           compress: true
         });
 
-        // Fill entire page (no margins)
         pdf.addImage(imgData, "JPEG", 0, 0, pageW, pageH, undefined, "FAST");
         pdf.save("stride-k12-profile.pdf");
       } catch (e) {
@@ -577,3 +576,4 @@
   </script>
 </body>
 </html>
+
